@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>component library</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1>saipriya's component library</h1>
-    <p> I am attending neog.camp and I want to make a component library which would make all my projects look good and consistent</p>
+    <p> I am attending neog.camp and I want to make a component library which would make all my projects look good and
+        consistent</p>
     <hr>
     <h2>@ typography</h2>
     <h1>This is the biggest heading </h1>
@@ -22,7 +25,8 @@
     <h3>@ fluid container</h3>
     <div class="container">This is going to be a fluid container. It will go full width of page. With some margin.</div>
     <h3>@ center container</h3>
-    <div class="container container-center">This is going to be a center container. It will go till a given width and center content</div>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and
+        center content</div>
     <hr>
     <h2>@ links</h2>
     <a href="" class="link link-primary">primarylink</a>
@@ -57,40 +61,48 @@
         <div class="nav-brand">I AM DEVELOPER</div>
         <ul class="nav-pills">
             <li class="list-inline"><a class="link link-active" href="">
-                home
-            </a></li>
+                    home
+                </a></li>
             <li class="list-inline"><a class="link" href="">
-                projects
-            </a></li>
+                    projects
+                </a></li>
             <li class="list-inline"><a class="link" href="">
-                blogs
-            </a></li>
+                    blogs
+                </a></li>
         </ul>
     </nav>
     <hr>
     <h2>@ header</h2>
-    <header></header>
-    <h1>heading inside hero</h1>
-    <img src="./images/undraw_programmer_re_owql.svg" alt="">
+    <header class="hero">
+        <img class="hero-img" src="./images/undraw_programmer_re_owql.svg" alt="">
+        <h1 class="hero-heading">sai priya <span class="heading-highlight">the web developer</span></h1>
+    </header>
     <hr>
     <h2>@ section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This section will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>A blog reading page: When user clicks on a blog from the listing page it would open the blog for user to read. Example tanay's blog page</p>
+        </div>
+
     </section>
-    <section>
-        <h3>off white section</h3>
-        <p>This section will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>A blog reading page: When user clicks on a blog from the listing page it would open the blog for user to read. Example tanay's blog page</p>
+        </div>
+
     </section>
     <hr>
     <h2>@ footer</h2>
-    <footer>
-        <div>some heading inside footer</div>
-        <ul>
-            <li>social one</li>
-            <li>social two</li>
-            <li>socail three</li>
+    <footer class="footer">
+        <div class="footer-header">some heading inside footer</div>
+        <ul class="list-non-bullet">
+            <li class="list-inline"><a class="link" href="">socialone</a></li>
+            <li class="list-inline"><a class="link" href="">social two</a></li>
+            <li class="list-inline"><a class="link" href="">socail three</a></li>
         </ul>
     </footer>
 </body>
+
 </html>
